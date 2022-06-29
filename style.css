@@ -1,0 +1,58 @@
+/*p,h1,li{*/
+/*    color: aqua;*/
+/*    width: 200px;*/
+/*    border:2px solid black;*/
+/*}*/
+
+/*#name{*/
+/*    color: red;*/
+/*    border: 2px solid aqua ;*/
+/*}*/
+
+/*.header{*/
+/*    color: greenyellow;*/
+/*    border: 2px solid steelblue;*/
+/*}*/
+
+/*img[src]{*/
+/*    align-content: center;*/
+/*}*/
+
+html{
+    font-size: 10px;
+    font-family: 'Open Sans',sans-serif;
+    background-color: aqua;
+}
+
+body{
+    width: 600px;
+    margin: 0 auto;
+    background-color: steelblue;
+    border: 5px solid greenyellow;
+    padding: 0 20px 20px 20px;
+}
+
+h1{
+    margin: 0;
+    padding: 20px 0;
+    text-shadow: 3px 3px 1px black;
+    color: lawngreen;
+    font-size: 60px;
+    text-align: center;
+}
+
+img{
+    display: block;
+    margin: 0 auto;
+}
+
+p,li{
+    font-size: 16px;
+    line-height: 2;
+    letter-spacing: 1px;
+}
+
+button{
+    display: flex;
+    flex: 1 1 100px;
+}
